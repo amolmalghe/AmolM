@@ -1,15 +1,25 @@
 package amol.it.com;
 
 public class TestGit {
-	void add(int a,int b) {
+	public  int add(int a,int b) {
 		int i =a+b;
+		return i;
+	}
+	public int sub(int x,int y) {
+		int a=x-y;
+		return a;
+	}
 
 	public static void main(String[] args) {
-		System.out.println("AMOL");
 		
-			gmail.com
+               TestGit t=new TestGit();
+            	  t.add(20,30);
+                  t.sub(10,30);
+                  System.out.println(t.add(30, 80));
+                  System.out.println(t.sub(100,700));
+	
 			
 		}
 	}
 
-}
+
